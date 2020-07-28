@@ -14,7 +14,7 @@ L = input(" Enter the list: ").split()
 for i in enumerate(L):
     L[i[0]] = int(i[1])
 L.sort()
-for i in range(0,max(L)+1):
+for i in range(0, max(L)+1):
     if i in L:
         pass
     else:
